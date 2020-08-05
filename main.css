@@ -7,4 +7,73 @@
     text-align: center;
 }
 /* COMPETITIVE ANALYISIS END */
+/* USER INTERVIEWS START */    
+blockquote{
+  margin:0;
+  padding:30px;
+  background-color: #49beaa;
+  color:white;
+  box-shadow: 0 5px 2px rgba(0,0,0,0.1);
+  position:relative;
+  transition: background-color 0.6s linear;
+  z-index: 2;
+}
+
+.two blockquote{
+  background-color: #8d89A6;
+}
+
+.three blockquote{
+  background-color: #531cb3;
+}
+
+blockquote:after { 
+  content: " "; 
+  height: 0; 
+  width: 0; 
+  position: absolute; 
+  top: 100%; 
+  border: solid transparent; 
+  border-top-color: #49beaa;
+  border-left-color:#49beaa;
+  border-width: 10px; 
+  left: 10%; 
+} 
+#second:checked ~ .two blockquote {
+  background-color:#8d89A6;
+}
+.two blockquote:after{
+  border: solid transparent; 
+  border-top-color: #8d89A6;
+  border-left-color:#8d89A6;
+  border-width: 10px;
+}
+#third:checked ~ .three blockquote{
+  background-color:#531cb3;
+}
+.three blockquote:after{
+  border: solid transparent; 
+  border-top-color: #531cb3;
+  border-left-color: #531cb3;
+  border-width: 10px;
+}
+.quotes{
+  position:absolute;
+  color:rgba(255,255,255,0.5);
+  font-size:5em;
+}
+.leftq{
+  top:-25px;
+  left:5px;
+}
+.rightq{
+  bottom:-10px;
+  right:5px;
+}
+img{
+  float:left;
+  margin-right: 20px;
+}
+    
+/* USER INTERVIEWS END */
 /* ----- WORK START ----- */
