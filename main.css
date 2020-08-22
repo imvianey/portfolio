@@ -3,7 +3,7 @@
 .table td, .table th {
     padding: .75rem;
     vertical-align: middle;
-    border: 2px double #49beaa;;
+    border: 2px double #F78F19;;
     text-align: center;
 }
 /* COMPETITIVE ANALYISIS END */
@@ -11,7 +11,7 @@
 blockquote{
   margin:0;
   padding:30px;
-  background-color: #49beaa;
+  background-color: #F78F19;
   color:white;
   box-shadow: 0 5px 2px rgba(0,0,0,0.1);
   position:relative;
@@ -20,11 +20,11 @@ blockquote{
 }
 
 .two blockquote{
-  background-color: #8d89A6;
+  background-color: #D17915;
 }
 
 .three blockquote{
-  background-color: #531cb3;
+  background-color: #FFAB49;
 }
 
 blockquote:after { 
@@ -34,27 +34,27 @@ blockquote:after {
   position: absolute; 
   top: 100%; 
   border: solid transparent; 
-  border-top-color: #49beaa;
-  border-left-color:#49beaa;
+  border-top-color: #F78F19;
+  border-left-color:#F78F19;
   border-width: 10px; 
   left: 10%; 
 } 
 #second:checked ~ .two blockquote {
-  background-color:#8d89A6;
+  background-color:#D17915;
 }
 .two blockquote:after{
   border: solid transparent; 
-  border-top-color: #8d89A6;
-  border-left-color:#8d89A6;
+  border-top-color: #D17915;
+  border-left-color:#D17915;
   border-width: 10px;
 }
 #third:checked ~ .three blockquote{
-  background-color:#531cb3;
+  background-color:#FFAB49;
 }
 .three blockquote:after{
   border: solid transparent; 
-  border-top-color: #531cb3;
-  border-left-color: #531cb3;
+  border-top-color: #FFAB49;
+  border-left-color: #FFAB49;
   border-width: 10px;
 }
 .quotes{
