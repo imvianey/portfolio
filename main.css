@@ -21,6 +21,10 @@ p{
   font-family: 'Open Sans', sans-serif;
 }
 
+.info p{
+  margin: 0px;
+}
+
 /* ----- WORK START ----- */
 /* COMPETITIVE ANALYISIS START */
 .table {
