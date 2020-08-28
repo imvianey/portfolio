@@ -5,6 +5,12 @@ body{
   color: #1A181B;
 }
 
+.h1, h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
 .h2, h2 {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 500;
@@ -32,6 +38,10 @@ p{
   background-color: #F78F19;
 }
 
+.bg-grey{
+  background-color: #EBE9ED;
+}
+
 /* OVERVIEW START */
 .text-extra-small{
   font-size: small;
@@ -43,13 +53,19 @@ p{
 .table {
   color: #1A181B;
   font-family: 'Josefin Sans', sans-serif;
+  background-color: #ffffff;
 }
 
 .table td, .table th {
     padding: .75rem;
     vertical-align: middle;
-    border: 2px double #F78F19;;
+    border: 2px double #1A181B;;
     text-align: center;
+}
+
+.fa-check::before {
+  content: "\f00c";
+  color: white;
 }
 /* COMPETITIVE ANALYISIS END */
 /* USER INTERVIEWS START */    
