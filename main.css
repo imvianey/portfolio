@@ -139,7 +139,86 @@ img{
 .interview-img{
   width: 200px;
   height: auto;
-}
-    
+}   
 /* USER INTERVIEWS END */
+
+/* STORYBOARD START */
+.bignumber{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 200%;
+}
+
+.bignumber ~ hr{
+  margin-left: 1rem;
+  margin-top: -2rem;
+  border-top: 3px solid #F78F19;
+}
+
+.flex-basis{
+  flex: 1 1 0px;
+}
+
+.front{
+  z-index: 3;
+}
+
+.center{
+  margin: 0 auto;
+}
+/* STORYBOARD END */
+
+/* USER FLOW START */
+.userflow-overset {
+  bottom: 5%;
+  right: 1%;
+  font-size: 2.6vw;
+  background-color: #F78F19;
+}
+
+.userflow-overset hr{
+  border-top: 1vw solid #1A181B;
+}
+
+.d-flex .flex-basis{
+  margin: 0px 10px;
+}
+/* USER FLOW END */
+
 /* ----- WORK START ----- */
+
+/* -----MEDIA QUIERIES----- */
+@media(min-width:576px){
+  .userflow-overset {
+    bottom: 5%;
+    right: -4%;
+    font-size: 2.2vw;
+    background-color: #F78F19;
+  }
+}
+
+@media(min-width:768px) {
+  .userflow-overset {
+    bottom: 5%;
+    right: -5%;
+    font-size: 2.2vw;
+    background-color: #F78F19;
+  }
+}
+
+@media(min-width:992px) {
+  .userflow-overset {
+    bottom: 5%;
+    right: -1%;
+    font-size: 2.4vw;
+    background-color: #F78F19;
+  }
+}
+
+@media(min-width:1140px) {
+  .userflow-overset {
+    bottom: 5%;
+    right: -7%;
+    font-size: 2.4vw;
+    background-color: #F78F19;
+  }
+}
