@@ -149,7 +149,7 @@ img{
 }
 
 .bignumber ~ hr{
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   margin-top: -2rem;
   border-top: 3px solid #F78F19;
 }
@@ -184,7 +184,11 @@ img{
 }
 /* USER FLOW END */
 
-/* ----- WORK START ----- */
+/* FEATURE MATRIX START */
+
+/* FEATURE MATRIX END */
+
+/* ----- WORK END ----- */
 
 /* -----MEDIA QUIERIES----- */
 @media(min-width:576px){
