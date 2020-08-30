@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 body{
@@ -6,14 +6,15 @@ body{
 }
 
 .h1, h1{
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .h2, h2 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 500;
+  text-transform: uppercase;
   font-size: 2.5rem;
 }
 
@@ -23,10 +24,16 @@ body{
   font-size: 1.5rem;
 }
 
-.h5, h5{
+.h4, h4{
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 1rem;
+}
+
+.h5, h5{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: .8rem;
 }
 
 p{
@@ -52,7 +59,7 @@ p{
 /* COMPETITIVE ANALYISIS START */
 .table {
   color: #1A181B;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
   background-color: #ffffff;
 }
 
@@ -144,13 +151,18 @@ img{
 
 /* STORYBOARD START */
 .bignumber{
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 200%;
 }
 
-.bignumber ~ hr{
+.bignumber .under-color{
   margin-left: 1.5rem;
   margin-top: -2rem;
+  border-top: 3px solid #F78F19;
+}
+
+.under-color{
+  margin-top: .5rem;
   border-top: 3px solid #F78F19;
 }
 
