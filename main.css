@@ -59,7 +59,8 @@ p{
 /* COMPETITIVE ANALYISIS START */
 .table {
   color: #1A181B;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
   background-color: #ffffff;
 }
 
@@ -155,14 +156,14 @@ img{
   font-size: 200%;
 }
 
-.bignumber .under-color{
-  margin-left: 1.5rem;
-  margin-top: -2rem;
+.under-color{
+  margin-top: .5rem;
   border-top: 3px solid #F78F19;
 }
 
-.under-color{
-  margin-top: .5rem;
+.bignumber ~ .under-color{
+  margin-left: 1.5rem;
+  margin-top: -1.7rem;
   border-top: 3px solid #F78F19;
 }
 
@@ -180,15 +181,8 @@ img{
 /* STORYBOARD END */
 
 /* USER FLOW START */
-.userflow-overset {
-  bottom: 5%;
-  right: 1%;
-  font-size: 2.6vw;
-  background-color: #F78F19;
-}
-
-.userflow-overset hr{
-  border-top: 1vw solid #1A181B;
+.thick{
+  border-top: .3rem solid #1A181B;
 }
 
 .d-flex .flex-basis{
