@@ -22,8 +22,8 @@
 <body>
   <header>
     <!-- START NAVBAR -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html">Vianey Garcia</a>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+      <a class="navbar-brand grow" href="index.html">Vianey Garcia</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <i class="far fa-grin-squint-tears"></i>
@@ -31,13 +31,13 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mb-2 mb-md-0 active">
-            <a class="nav-link" href="work.html">Work</a>
+            <a class="nav-link grow" href="work.html">Work</a>
           </li>
           <li class="nav-item mb-2 mb-md-0">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link grow" href="about.html">About</a>
           </li>
           <li class="nav-item mb-2 mb-md-0">
-            <a class="nav-link" href="resume.html">Resume</a>
+            <a class="nav-link grow" href="resume.html">Resume</a>
           </li>
         </ul>
       </div>
@@ -46,7 +46,7 @@
   </header>
   <main>
     <!-- JUMBOTRON START -->
-    <div class="jumbotron jumbotron-fluid bg-orange mb-0">
+    <div class="jumbotron jumbotron-fluid bg-orange mb-0 mt-5">
       <div class="container">
         <div class="row position-relative">
           <div class="col">
@@ -452,12 +452,15 @@
           </div> -->
           <!-- USERFLOW END -->
           <!-- SITEMAP START -->
-            <div class="col-12 col-sm-6 col-md-8">
-              <div class="bg-orange p-3">
+              <div class="col-12 p-3">
                 <h3 class="mb-0">Site Map</h3>
               </div>
-              <img src="assets/spot/site_map.png" class="img-fluid" alt="Site Map">
+              <div class="col-12 col-md-4">
+              <p>Creating a site-map helped narrow down the key components and necessary pages.  It aided in page consolidation and reinforced the user's journey</p>
             </div>
+              <div class="col-12 col-md-8">
+                <img src="assets/spot/site_map.png" class="img-fluid" alt="Site Map">
+              </div>
           <!-- SITEMAP END -->
          </div>
 
@@ -657,13 +660,65 @@
                 </div>
                 </div>
                 </section>
+                <section class="pt-5">
+                  <div class="container">
+                    <div class="row py-5">
+                      <div class="col-12">
+                        <h3>High Fidelity Prototype</h3>
+                      </div>
+                      <div class="col-12 py-3">
+                        <img src="assets/spot/hifi_prototype.png" class="img-fluid" alt="High Fidelity Prototype">
+                       
+                        </div> <a href="https://projects.invisionapp.com/prototype/SPOT-high-fidelity-prototype-ck5oo89xc0020y301hg1czmss/play/c0b6964c"  target="_blank" class="btn btn-block btn-lg btn-orange" role="button">Try the InVision Prototype</a>
+                        </div>
+                        </div>
+                        </section>
 
 
 
   </main>
-  <footer>
-    <a href="http://www.freepik.com">Jumbotron mockup designed by Zlatko_Plamenov / Freepik</a>
-  </footer>
+    <footer class="page-footer mt-5">
+
+      <!-- Footer Elements -->
+      <div class="container">
+        <!-- NEXT PROJECT START -->
+        <div class="row pt-2">
+          <div class="col-6 text-center align-self-center grow">
+            <a href="#"><h2>Previous Project</h2></a>
+          </div>
+          <div class="col-6 text-center align-self-center grow">
+            <a href="#"><h2>Next Project</h2></a>
+          </div>
+          </div>
+        <!-- NEXT PROJECT END -->
+  
+        <!-- COPYRIGHT START-->
+        <div class="row py-3">
+          <div class="col-12 py-3 text-center align-self-center">
+            <p>COPYRIGHT 2020 VIANEY GARCIA. ALL RIGHTS RESERVED.</p>
+            <a href="http://www.freepik.com">Jumbotron mockup designed by Zlatko_Plamenov / Freepik<br>Prototype phone mockup designed by rawpixel.com / Freepik</a>
+          </div>
+  <!-- COPYRIGHT END -->
+          <!-- SOCIAL MEDIA START -->
+          <div class="col-12 py-3">
+            <div class="flex-center text-center text-align-center">
+              <!-- Facebook -->
+              <a class="fb-ic">
+                <i class="fab fa-facebook-f fa-lg white-text mx-1 fa-2x grow"> </i>
+              </a>
+              <!-- Twitter -->
+              <a class="tw-ic">
+                <i class="fab fa-twitter fa-lg white-text mx-1 fa-2x grow"> </i>
+              </a>
+              <!--Instagram-->
+                <a class="ins-ic" href="#"><i class="grow fab fa-instagram fa-lg white-text mx-1 fa-2x"></i></a>
+            </div>
+          </div>
+          <!-- SOCIAL MEDIA END -->
+        </div>
+      </div>
+  
+    </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

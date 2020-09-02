@@ -40,6 +40,40 @@ p{
   font-family: 'Open Sans', sans-serif;
 }
 
+.grow:hover {
+  transform: scale(1.1);
+}
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+a {
+  color: #1A181B;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover{
+  color: #1A181B;
+  text-decoration: none;
+}
+
+/* ----- NAVBAR START ----- */
+.bg-light {
+  background-color: #ffffff !important;
+}
+
+.navbar-brand{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.navbar-nav{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+/* ----- NAVBAR END ----- */
+
 /* ----- WORK START ----- */
 .bg-orange{
   background-color: #F78F19;
@@ -190,10 +224,21 @@ img{
 }
 /* USER FLOW END */
 
-/* FEATURE MATRIX START */
+/* PROTOTYPE START */
+.btn-orange{
+  background-color: #F78F19;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  border: #F78F19 solid 4px;
+}
 
-/* FEATURE MATRIX END */
-
+.btn-orange:hover{
+  background-color: #ffffff;
+  color: #F78F19;
+  border: #F78F19 solid 4px;
+  font-family: 'Oswald', sans-serif;
+}
+/* PROTOTYPE END */
 /* ----- WORK END ----- */
 
 /* -----MEDIA QUIERIES----- */
