@@ -79,7 +79,27 @@ a:hover {
   font-weight: 600;
 }
 
+.btn{
+  font-family: 'Oswald', sans-serif;
+}
+
 /* ----- NAVBAR END ----- */
+
+/* ----- INDEX START ----- */
+.btn-primary{
+  background-color: #47A8BD;
+  color: #ffffff;
+  border: #1A181B solid 2px;
+  border-radius: 0px;
+}
+
+.btn-primary:hover{
+  background-color: #ffffff;
+  color: #1A181B;
+  border: #47A8BD solid 4px;
+  border-radius: 0px;
+}
+/* ----- INDES END----- */
 
 /* ----- WORK START ----- */
 .bg-orange {
