@@ -1,48 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
-body{
+body {
   color: #1A181B;
 }
 
-.h1, h1{
+.h1,
+h1 {
   font-family: 'Oswald', sans-serif;
   font-weight: 600;
   font-size: 4rem;
 }
 
-.h2, h2 {
+.h2,
+h2 {
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   font-size: 2.5rem;
 }
 
-.h3, h3{
+.h3,
+h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
 }
 
-.h4, h4{
+.h4,
+h4 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 1rem;
 }
 
-.h5, h5{
+.h5,
+h5 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   font-size: .8rem;
 }
 
-p{
+p {
   font-family: 'Open Sans', sans-serif;
 }
 
 .grow:hover {
   transform: scale(1.1);
 }
+
 .grow {
   transition: all .2s ease-in-out;
 }
@@ -53,7 +59,7 @@ a {
   background-color: transparent;
 }
 
-a:hover{
+a:hover {
   color: #1A181B;
   text-decoration: none;
 }
@@ -63,31 +69,33 @@ a:hover{
   background-color: #ffffff !important;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
 }
 
-.navbar-nav{
+.navbar-nav {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
+
 /* ----- NAVBAR END ----- */
 
 /* ----- WORK START ----- */
-.bg-orange{
+.bg-orange {
   background-color: #F78F19;
 }
 
-.bg-grey{
+.bg-grey {
   background-color: #EBE9ED;
 }
 
 /* OVERVIEW START */
-.text-extra-small{
+.text-extra-small {
   font-size: small;
   font-weight: 600;
 }
+
 /* OVERVIEW END */
 
 /* COMPETITIVE ANALYISIS START */
@@ -98,151 +106,166 @@ a:hover{
   background-color: #ffffff;
 }
 
-.table td, .table th {
-    padding: .75rem;
-    vertical-align: middle;
-    border: 2px double #1A181B;;
-    text-align: center;
+.table td,
+.table th {
+  padding: .75rem;
+  vertical-align: middle;
+  border: 2px double #1A181B;
+  ;
+  text-align: center;
 }
 
 .fa-check::before {
   content: "\f00c";
   color: white;
 }
+
 /* COMPETITIVE ANALYISIS END */
-/* USER INTERVIEWS START */    
-blockquote{
-  margin:0;
-  padding:30px;
+/* USER INTERVIEWS START */
+blockquote {
+  margin: 0;
+  padding: 30px;
   background-color: #F78F19;
-  color:white;
-  box-shadow: 0 5px 2px rgba(0,0,0,0.1);
-  position:relative;
+  color: white;
+  box-shadow: 0 5px 2px rgba(0, 0, 0, 0.1);
+  position: relative;
   transition: background-color 0.6s linear;
   z-index: 2;
 }
 
-.two blockquote{
+.two blockquote {
   background-color: #D17915;
 }
 
-.three blockquote{
+.three blockquote {
   background-color: #FFAB49;
 }
 
-blockquote:after { 
-  content: " "; 
-  height: 0; 
-  width: 0; 
-  position: absolute; 
-  top: 100%; 
-  border: solid transparent; 
+blockquote:after {
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 100%;
+  border: solid transparent;
   border-top-color: #F78F19;
-  border-left-color:#F78F19;
-  border-width: 10px; 
-  left: 10%; 
-} 
-#second:checked ~ .two blockquote {
-  background-color:#D17915;
+  border-left-color: #F78F19;
+  border-width: 10px;
+  left: 10%;
 }
-.two blockquote:after{
-  border: solid transparent; 
+
+#second:checked~.two blockquote {
+  background-color: #D17915;
+}
+
+.two blockquote:after {
+  border: solid transparent;
   border-top-color: #D17915;
-  border-left-color:#D17915;
+  border-left-color: #D17915;
   border-width: 10px;
 }
-#third:checked ~ .three blockquote{
-  background-color:#FFAB49;
+
+#third:checked~.three blockquote {
+  background-color: #FFAB49;
 }
-.three blockquote:after{
-  border: solid transparent; 
+
+.three blockquote:after {
+  border: solid transparent;
   border-top-color: #FFAB49;
   border-left-color: #FFAB49;
   border-width: 10px;
 }
-.quotes{
-  position:absolute;
-  color:rgba(255,255,255,0.5);
-  font-size:5em;
+
+.quotes {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 5em;
 }
-.leftq{
-  top:-25px;
-  left:5px;
+
+.leftq {
+  top: -25px;
+  left: 5px;
 }
-.rightq{
-  bottom:-10px;
-  right:5px;
+
+.rightq {
+  bottom: -10px;
+  right: 5px;
 }
-img{
-  float:left;
+
+img {
+  float: left;
   margin-right: 20px;
 }
 
-.interview-img{
+.interview-img {
   width: 200px;
   height: auto;
-}   
+}
+
 /* USER INTERVIEWS END */
 
 /* STORYBOARD START */
-.bignumber{
+.bignumber {
   font-family: 'Oswald', sans-serif;
   font-size: 200%;
 }
 
-.under-color{
+.under-color {
   margin-top: .5rem;
   border-top: 3px solid #F78F19;
 }
 
-.bignumber ~ .under-color{
+.bignumber~.under-color {
   margin-left: 1.5rem;
   margin-top: -1.7rem;
   border-top: 3px solid #F78F19;
 }
 
-.flex-basis{
+.flex-basis {
   flex: 1 1 0px;
 }
 
-.front{
+.front {
   z-index: 3;
 }
 
-.center{
+.center {
   margin: 0 auto;
 }
+
 /* STORYBOARD END */
 
 /* USER FLOW START */
-.thick{
+.thick {
   border-top: .3rem solid #1A181B;
 }
 
-.d-flex .flex-basis{
+.d-flex .flex-basis {
   margin: 0px 10px;
 }
+
 /* USER FLOW END */
 
 /* PROTOTYPE START */
-.btn-orange{
+.btn-orange {
   background-color: #F78F19;
   color: #ffffff;
   font-family: 'Oswald', sans-serif;
   border: #F78F19 solid 4px;
 }
 
-.btn-orange:hover{
+.btn-orange:hover {
   background-color: #ffffff;
   color: #F78F19;
   border: #F78F19 solid 4px;
   font-family: 'Oswald', sans-serif;
 }
+
 /* PROTOTYPE END */
 /* ----- WORK END ----- */
 
 /* -----MEDIA QUIERIES----- */
-@media(min-width:576px){
+@media(min-width:576px) {
   .userflow-overset {
     bottom: 5%;
     right: -4%;
