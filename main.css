@@ -102,6 +102,7 @@ a:hover {
 /* ----- INDES END----- */
 
 /* ----- WORK START ----- */
+/* ----- COLORS START ----- */
 .bg-orange {
   background-color: #F78F19;
 }
@@ -113,6 +114,7 @@ a:hover {
 .bg-grey {
   background-color: #EBE9ED;
 }
+/* ----- COLORS END */
 
 /* OVERVIEW START */
 .text-extra-small {
@@ -121,6 +123,12 @@ a:hover {
 }
 
 /* OVERVIEW END */
+
+iframe {
+  display: block;
+  border-style:none;
+  margin: 0 auto;
+}
 
 /* COMPETITIVE ANALYISIS START */
 .table {
