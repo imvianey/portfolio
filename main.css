@@ -106,6 +106,10 @@ a:hover {
   background-color: #F78F19;
 }
 
+.bg-lightblue{
+  background-color: #68A8DC;
+}
+
 .bg-grey {
   background-color: #EBE9ED;
 }
@@ -230,15 +234,26 @@ img {
   font-size: 200%;
 }
 
-.under-color {
+#spot .under-color {
   margin-top: .5rem;
   border-top: 3px solid #F78F19;
 }
 
-.bignumber~.under-color {
+#spot .bignumber~.under-color {
   margin-left: 1.5rem;
   margin-top: -1.7rem;
   border-top: 3px solid #F78F19;
+}
+
+#wayve .under-color {
+  margin-top: .5rem;
+  border-top: 3px solid #68A8DC;
+}
+
+#wayve .bignumber~.under-color {
+  margin-left: 1.5rem;
+  margin-top: -1.7rem;
+  border-top: 3px solid #68A8DC;
 }
 
 .flex-basis {
@@ -267,17 +282,31 @@ img {
 /* USER FLOW END */
 
 /* PROTOTYPE START */
-.btn-orange {
+#spot .btn-lg {
   background-color: #F78F19;
   color: #ffffff;
   font-family: 'Oswald', sans-serif;
   border: #F78F19 solid 4px;
 }
 
-.btn-orange:hover {
+#spot .btn-lg:hover {
   background-color: #ffffff;
   color: #F78F19;
   border: #F78F19 solid 4px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#wayve .btn-lg {
+  background-color: #68A8DC;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  border: #68A8DC solid 4px;
+}
+
+#wayve .btn-lg:hover {
+  background-color: #ffffff;
+  color: #68A8DC;
+  border: #68A8DC solid 4px;
   font-family: 'Oswald', sans-serif;
 }
 
