@@ -15,13 +15,15 @@
 
   <!-- MAIN CSS -->
   <link href="main.css" rel="stylesheet">
+  <!-- SCROLL AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!-- SCROLL AOS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-   <!-- JQUERY -->
-   <script src=”//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js”>
-   </script>
+  <!-- MY SCRIPT -->
+  <script src="script.js" async defer></script>
+  <!-- JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" async defer></script>
+  <!-- AOS JQUERY -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js" async defer></script>
 
   <title>Vianey Garcia</title>
 </head>
@@ -71,11 +73,14 @@
             <h3>Mobility Design Challenge</h3>
             <div class="py-1">
               <h3>The Problem</h3>
-              <p>How Might We help seniors stay informed & safe during COVID-19 when using the Big Blue Bus at the Santa Monica Promenade?</p>
+              <p>How Might We help seniors stay informed & safe during COVID-19 when using the Big Blue Bus at the Santa
+                Monica Promenade?</p>
             </div>
             <div class="py-1">
               <h3>The Solution</h3>
-              <p>A publically accessible, interactive kiosk with stop-specific bus information. Wayve eases the communication gaps caused by COVID mandates allowing older riders to access the information they need with a touchless gesture controlled interface without a smartphone.</p>
+              <p>A publically accessible, interactive kiosk with stop-specific bus information. Wayve eases the
+                communication gaps caused by COVID mandates allowing older riders to access the information they need
+                with a touchless gesture controlled interface without a smartphone.</p>
             </div>
           </div>
           <div class="col-12 col-md-6">
@@ -102,10 +107,13 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-      <iframe width="608" height="342" src="https://www.youtube.com/embed/cnr-cqYqCVE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      </div>
-      </div>
+            <div class="embed-responsive embed-responsive-21by9">
+              <iframe src="https://www.youtube.com/embed/cnr-cqYqCVE"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""
+                class="embed-responsive-item" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>
     </section>
     <!-- VISION VIDEO END -->
     <!-- OBSERVATION START -->
@@ -115,93 +123,124 @@
           <div class="col-12">
             <h2>Observations</h2>
             <h3 class="pb-4">What we noticed:</h3>
+            <p>The Promenade is a pedestrian mall and transportation hub where the Metro Rail and the Big Blue Bus
+              system meet. At the promenade, we observed a communication gap between the people and the bus and noticed
+              the passengers' frustration.</p>
           </div>
+          <div class="col-12 col-md-6">
+            <img src="/assets/wayve/observation2.jpg" class="img-fluid" alt="Responsive image">
+            <img src="/assets/wayve/observation3.jpg" class="img-fluid" alt="Responsive image">
           </div>
+          <div class="col-12 col-md-6">
+            <img src="/assets/wayve/observation1.jpg" class="img-fluid" alt="Responsive image">
+            <p>Person left behind by a bus driver and didn’t understand why. Several other people we talked to had
+              similar experiences.</p>
           </div>
-          </section>
+        </div>
+    </section>
     <!-- OBSERVATION END -->
-    <!-- COMPETITIVE ANALYSIS START -->
-    <section class="py-5 bg-grey">
+    <!-- SECONDARY RESEARCH START -->
+    <section class="py-5 bg-grey" data-aos="fade-up">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <h2>Secondary Research</h2>
-            <h3 class="pb-4">Competitive Analysis</h3>
+            <h3 class="pb-4">Public Transit and Elderly Populations</h3>
           </div>
-          <div class="col-12 col-md-8" data-aos="fade-right">
+
+          <div class="col-12">
+            <h3 class="pb-4">Competitive Analysis</h3>
+            <p>Before we came up with the Wayve concept, we looked into the systems that currently exist to help the
+              people move around Santa Monica.</p>
+          </div>
+          <div class="col-12 col-md-6">
             <table class="table">
               <thead>
                 <tr>
-                  <th scope="col"></th>
-                  <th scope="col"><img src="assets/spot/googlemaps.png" class="img-fluid" alt="Google Maps"></th>
-                  <th scope="col"><img src="assets/spot/instagram.png" class="img-fluid" alt="Instagram"></th>
-                  <th scope="col"><img src="assets/spot/photomapper.png" class="img-fluid" alt="Photomapper"></th>
-                  <th scope="col"><img src="assets/spot/shothotspot.png" class="img-fluid" alt="ShotHotSpot"></th>
+                  <th scope="col"><img src="assets/wayve/comp-bar.png" class="img-fluid" alt="Real-Time Signals"></th>
+                  <th scope="col"><img src="assets/wayve/comp-phone.png" class="img-fluid"
+                      alt="Real-Time Arrivals Call & Text Line"></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">Direct Competitor</th>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
-                  <td class=""><i class="fas fa-times"></i></i></td>
-                  <td class=""><i class="fas fa-times"></i></td>
+                  <td class="">
+                    <p>Real-Time Signals</p></i>
+                  </td>
+                  <td class="">
+                    <p>Real-Time Arrivals Call & Text Line</p></i>
+                  </td>
                 </tr>
                 <tr>
-                  <th scope="row">iOS / Android</th>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
-                  <td class=""><i class="fas fa-times"></i></td>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
+                  <td class="">
+                    <p>Digital signs that show bus route and arrival times.</p></i>
+                  </td>
+                  <td class="">
+                    <p>Call for up-to-date bus information based on Stop ID.
+                    </p></i>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-12 col-md-6">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col"><img src="assets/wayve/comp-gogo.png" class="img-fluid" alt="GoGo Grandparent"></th>
+                  <th scope="col"><img src="assets/wayve/comp-mode.png" class="img-fluid" alt="MODE"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="">
+                    <p>GoGo Grandparent</p></i>
+                  </td>
+                  <td class="">
+                    <p>MODE</p></i>
+                  </td>
                 </tr>
                 <tr>
-                  <th scope="row">Website</th>
-                  <td class=""><i class="fas fa-times"></i></td>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
+                  <td class="">
+                    <p>A way for elderly to use Lyft & Uber as well as get food and groceries delivered.
+                    </p></i>
+                  </td>
+                  <td class="">
+                    <p>On-demand transport to the elderly (65 +) and disabled (18+)
+                    </p></i>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-12 col-md-6">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col"><img src="assets/wayve/comp-transit.png" class="img-fluid"
+                      alt="Big Blue Bus Transit App"></th>
+                  <th scope="col"><img src="assets/wayve/comp-google.png" class="img-fluid" alt="Google Maps"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="">
+                    <p>Big Blue Bus Transit App</p></i>
+                  </td>
+                  <td class="">
+                    <p>Google Maps</p></i>
+                  </td>
                 </tr>
                 <tr>
-                  <th scope="row">Filter</th>
-                  <td class=""><i class="fas fa-times"></i></td>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
-                  <td class=""><i class="fas fa-times"></i></td>
-                </tr>
-                <tr>
-                  <th scope="row">Geotagging</th>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
-                </tr>
-                <tr>
-                  <th scope="row">Search</th>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
-                </tr>
-                <tr>
-                  <th scope="row">Location Suggestions</th>
-                  <td class=""><i class="fas fa-times"></i></td>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
-                  <td class=""><i class="fas fa-times"></i></td>
-                  <td class=""><i class="fas fa-times"></i></td>
-                </tr>
-                <tr>
-                  <th scope="row">Location Details</th>
-                  <td class=""><i class="fas fa-times"></i></td>
-                  <td class=""><i class="fas fa-times"></i></td>
-                  <td class=""><i class="fas fa-times"></i></td>
-                  <td class=""><i class="fas fa-times"></i></td>
-                </tr>
-                <tr>
-                  <th scope="row">Save</th>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
-                  <td class=""><i class="fas fa-times"></i></td>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
-                  <td class="bg-lightblue"><i class="fas fa-check"></i></td>
+                  <td class="">
+                    <p>BBB’s official app for trip planning and real-time bus information.
+                    </p></i>
+                  </td>
+                  <td class="">
+                    <p>Google’s web mapping service that offers real-time traffic conditions and transportation
+                      information.
+                    </p></i>
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -209,16 +248,17 @@
           <div class="col-12 col-md-4">
             <ul>
               <li>
-                <p>None have <strong>location details</strong></p>
+                <p>Elderly passengers have access to real-time call and text lines, but those services <strong>do not
+                    alleviate the specific problems caused by COVID-19</strong>. </p>
               </li>
               <li>
-                <p>Most <strong>do not</strong> suggest location</p>
+                <p>Transportation services that are <strong>designed for elderly passengers</strong> are not app-based.
+                  They are only accessible in-person or by phone.
+                </p>
               </li>
               <li>
-                <p>None of the competitors offer all of the features SPOT offers in one place.</p>
-              </li>
-              <li>
-                <p>ShotHotSpot and Instagram have <strong>filters</strong> but Photomapper and Google Maps do not.</p>
+                <p>While existing transit apps are useful for navigating during COVID-19, they are not a solution for
+                  our elderly passengers as they <strong>typically don’t use their phones for navigation</strong>.</p>
               </li>
             </ul>
           </div>
@@ -699,11 +739,13 @@
           <div class="col-12">
             <h3>High Fidelity Prototype</h3>
           </div>
-          <div class="col-12 py-3" data-aos="fade-up">
+          <div class="col-12" data-aos="fade-up">
             <img src="assets/spot/hifi_prototype.png" class="img-fluid" alt="High Fidelity Prototype">
           </div>
-          <a href="https://projects.invisionapp.com/prototype/SPOT-high-fidelity-prototype-ck5oo89xc0020y301hg1czmss/play/c0b6964c"
-            target="_blank" class="btn btn-block btn-lg" role="button" data-aos="fade-up">Try the InVision Prototype</a>
+          <div class="col-12" data-aos="fade-up">
+            <a href="https://projects.invisionapp.com/prototype/SPOT-high-fidelity-prototype-ck5oo89xc0020y301hg1czmss/play/c0b6964c"
+              target="_blank" class="btn btn-block btn-lg" role="button">Try the InVision Prototype</a>
+          </div>
         </div>
       </div>
     </section>
@@ -770,10 +812,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
   </script>
-      <!-- AOS JQUERY -->
-      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-      <script>
-        AOS.init();
-      </script>
 </body>
+
 </html>

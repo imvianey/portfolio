@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+
+.container{
+  width: 100%;
+}
 
 body {
   color: #1A181B;
@@ -23,7 +27,7 @@ h2 {
 .h3,
 h3 {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.5rem;
 }
 
@@ -79,26 +83,27 @@ a:hover {
   font-weight: 600;
 }
 
-.btn{
+.btn {
   font-family: 'Oswald', sans-serif;
 }
 
 /* ----- NAVBAR END ----- */
 
 /* ----- INDEX START ----- */
-.btn-primary{
+.btn-primary {
   background-color: #47A8BD;
   color: #ffffff;
   border: #1A181B solid 2px;
   border-radius: 0px;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: #ffffff;
   color: #1A181B;
   border: #47A8BD solid 4px;
   border-radius: 0px;
 }
+
 /* ----- INDES END----- */
 
 /* ----- WORK START ----- */
@@ -107,13 +112,14 @@ a:hover {
   background-color: #F78F19;
 }
 
-.bg-lightblue{
+.bg-lightblue {
   background-color: #68A8DC;
 }
 
 .bg-grey {
   background-color: #EBE9ED;
 }
+
 /* ----- COLORS END */
 
 /* OVERVIEW START */
@@ -126,9 +132,16 @@ a:hover {
 
 iframe {
   display: block;
-  border-style:none;
+  border-style: none;
   margin: 0 auto;
 }
+
+/* OBSERVATION START */
+.img-fluid {
+  margin: 10px 0px;
+}
+
+/* OBSERVATION END */
 
 /* COMPETITIVE ANALYISIS START */
 .table {
@@ -141,7 +154,6 @@ iframe {
 .table td,
 .table th {
   padding: .75rem;
-  vertical-align: middle;
   border: 2px double #1A181B;
   ;
   text-align: center;
@@ -150,6 +162,14 @@ iframe {
 .fa-check::before {
   content: "\f00c";
   color: white;
+}
+
+.table thead th{
+  vertical-align: middle;
+}
+
+.thead{
+  width: 100%;
 }
 
 /* COMPETITIVE ANALYISIS END */
