@@ -149,6 +149,7 @@ iframe {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   background-color: #ffffff;
+  margin-bottom: 0px;
 }
 
 .table td,
@@ -244,14 +245,10 @@ blockquote:after {
   right: 5px;
 }
 
-img {
-  float: left;
-  margin-right: 20px;
-}
-
 .interview-img {
   width: 200px;
   height: auto;
+  float: left;
 }
 
 /* USER INTERVIEWS END */

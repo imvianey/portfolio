@@ -18,12 +18,12 @@
   <!-- SCROLL AOS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-  <!-- MY SCRIPT -->
-  <script src="script.js" async defer></script>
   <!-- JQUERY -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" async defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- AOS JQUERY -->
-  <script src="https://unpkg.com/aos@next/dist/aos.js" async defer></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- MY SCRIPT -->
+  <script src="script.js"></script>
 
   <title>Vianey Garcia</title>
 </head>
@@ -104,7 +104,7 @@
     </section>
     <!-- VISION VIDEO START -->
     <section class="py-5">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-12">
             <div class="embed-responsive embed-responsive-21by9">
@@ -118,7 +118,7 @@
     <!-- VISION VIDEO END -->
     <!-- OBSERVATION START -->
     <section class="py-5">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-12">
             <h2>Observations</h2>
@@ -140,8 +140,8 @@
     </section>
     <!-- OBSERVATION END -->
     <!-- SECONDARY RESEARCH START -->
-    <section class="py-5 bg-grey" data-aos="fade-up">
-      <div class="container">
+    <section class="py-5">
+      <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-12">
             <h2>Secondary Research</h2>
@@ -152,115 +152,58 @@
             <h3 class="pb-4">Competitive Analysis</h3>
             <p>Before we came up with the Wayve concept, we looked into the systems that currently exist to help the
               people move around Santa Monica.</p>
-          </div>
-          <div class="col-12 col-md-6">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col"><img src="assets/wayve/comp-bar.png" class="img-fluid" alt="Real-Time Signals"></th>
-                  <th scope="col"><img src="assets/wayve/comp-phone.png" class="img-fluid"
-                      alt="Real-Time Arrivals Call & Text Line"></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td class="">
-                    <p>Real-Time Signals</p></i>
-                  </td>
-                  <td class="">
-                    <p>Real-Time Arrivals Call & Text Line</p></i>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="">
-                    <p>Digital signs that show bus route and arrival times.</p></i>
-                  </td>
-                  <td class="">
-                    <p>Call for up-to-date bus information based on Stop ID.
-                    </p></i>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="col-12 col-md-6">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col"><img src="assets/wayve/comp-gogo.png" class="img-fluid" alt="GoGo Grandparent"></th>
-                  <th scope="col"><img src="assets/wayve/comp-mode.png" class="img-fluid" alt="MODE"></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td class="">
-                    <p>GoGo Grandparent</p></i>
-                  </td>
-                  <td class="">
-                    <p>MODE</p></i>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="">
-                    <p>A way for elderly to use Lyft & Uber as well as get food and groceries delivered.
-                    </p></i>
-                  </td>
-                  <td class="">
-                    <p>On-demand transport to the elderly (65 +) and disabled (18+)
-                    </p></i>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="col-12 col-md-6">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col"><img src="assets/wayve/comp-transit.png" class="img-fluid"
-                      alt="Big Blue Bus Transit App"></th>
-                  <th scope="col"><img src="assets/wayve/comp-google.png" class="img-fluid" alt="Google Maps"></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td class="">
-                    <p>Big Blue Bus Transit App</p></i>
-                  </td>
-                  <td class="">
-                    <p>Google Maps</p></i>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="">
-                    <p>BBB’s official app for trip planning and real-time bus information.
-                    </p></i>
-                  </td>
-                  <td class="">
-                    <p>Google’s web mapping service that offers real-time traffic conditions and transportation
-                      information.
-                    </p></i>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="col-12 col-md-4">
             <ul>
-              <li>
-                <p>Elderly passengers have access to real-time call and text lines, but those services <strong>do not
-                    alleviate the specific problems caused by COVID-19</strong>. </p>
-              </li>
-              <li>
-                <p>Transportation services that are <strong>designed for elderly passengers</strong> are not app-based.
-                  They are only accessible in-person or by phone.
-                </p>
-              </li>
-              <li>
-                <p>While existing transit apps are useful for navigating during COVID-19, they are not a solution for
-                  our elderly passengers as they <strong>typically don’t use their phones for navigation</strong>.</p>
-              </li>
+              <li>Elderly passengers have access to real-time call and text lines, but those services do not alleviate
+                the specific problems caused by COVID.</li>
+              <li>Transportation services that are specifically designed for elderly passengers are not app-based. They
+                are only accessible in-person or by phone.</li>
+              <li>Existing transit apps are useful for navigating during COVID, they are not a solution for our elderly
+                passengers as they typically don’t use their phones for navigation.</li>
             </ul>
+          </div>
+          <div class="col-6 col-md-4 p-4">
+            <img src="assets/wayve/comp-bar.png" class="img-fluid mx-auto d-block" alt="Real-Time Signals">
+            <div class="">
+              <p class="text-center"><strong>Real-Time Signals</strong></p>
+              <p>Digital signs that show bus route and arrival times.</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 p-4">
+            <img src="assets/wayve/comp-phone.png" class="img-fluid mx-auto d-block"
+              alt="Real-Time Arrivals Call & Text Line">
+            <div class="">
+              <p class="text-center"><strong>Real-Time Arrivals Call & Text Line</strong></p>
+              <p>Call for up-to-date bus information based on Stop ID.</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 p-4">
+            <img src="assets/wayve/comp-gogo.png" class="img-fluid mx-auto d-block" alt="GoGo Grandparent">
+            <div class="">
+              <p class="text-center"><strong>GoGo Grandparent</strong></p>
+              <p>A way for elderly to use Lyft & Uber as well as get food and groceries delivered.</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 p-4">
+            <img src="assets/wayve/comp-mode.png" class="img-fluid mx-auto d-block" alt="MODE">
+            <div class="">
+              <p class="text-center"><strong>MODE</strong></p>
+              <p>On-demand transport to the elderly (65 +) and disabled (18+)</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 p-4">
+            <img src="assets/wayve/comp-transit.png" class="img-fluid mx-auto d-block" alt="Big Blue Bus Transit App">
+            <div class="">
+              <p class="text-center"><strong>Big Blue Bus Transit App</strong></p>
+              <p>BBB’s official app for trip planning and real-time bus information.</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 p-4">
+            <img src="assets/wayve/comp-google.png" class="img-fluid mx-auto d-block" alt="Google Maps">
+            <div class="">
+              <p class="text-center"><strong>Google Maps</strong></p>
+              <p>Google’s web mapping service that offers real-time traffic conditions and transportation
+                information.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -269,7 +212,7 @@
 
     <!-- USER INTERVIEW START -->
     <section class="py-5">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="row pt-4">
           <div class="col-12">
             <h2>Interviews</h2>
@@ -357,7 +300,7 @@
                 Gain the skills to become professional photographers.</p>
             </div>
           </div>
-          <div class="one col-12 col-lg-6" data-aos="fade-left">
+          <div class="one col-12 col-lg-6" data-aos="fade-up">
             <blockquote>
               <span class="leftq quotes">&ldquo;</span>
               <p class="mb-0">Being aware of industry trends is important, but staying true to
@@ -376,7 +319,7 @@
 
     <!-- PERSONA START -->
     <section class="py-5 bg-grey">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-12">
             <h2>Target User</h2>
@@ -387,11 +330,11 @@
             <p>Mostly contained to his local area and has trouble finding new photography locations.</p>
             <p>Dan posts on Instagram and gets feedback through the comments.</p>
           </div>
-          <div class="col-12 py-4" data-aos="fade-left">
+          <div class="col-12 py-4 d-lg-flex">
             <img src="assets/spot/persona_spot_dan_1.png" class="img-fluid col-12 col-lg-6 m-0 p-0" alt="User Persona">
             <img src="assets/spot/persona_spot_dan_2.png" class="img-fluid col-12 col-lg-6 m-0 p-0" alt="User Persona">
           </div>
-          <div class="col-12 py-4 d-lg-flex" data-aos="fade-right">
+          <div class="col-12 py-4 d-lg-flex">
             <img src="assets/spot/persona_spot_emma_1.png" class="img-fluid col-12 col-lg-6 m-0 p-0 order-lg-last"
               alt="User Persona">
             <img src="assets/spot/persona_spot_emma_2.png" class="img-fluid col-12 col-lg-6 m-0 p-0" alt="User Persona">
@@ -403,7 +346,7 @@
 
     <!-- SOLVING THE PROBLEM START -->
     <section class="">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <!-- EXPERIENCE MAP START -->
         <div class="row py-5">
           <div class="col-12 py-4">
@@ -429,7 +372,7 @@
             </div>
 
           </div>
-          <div class="col-12 col-md-8" data-aos="fade-left">
+          <div class="col-12 col-md-8">
             <img src="assets/spot/experience_map.png" class="img-fluid" alt="Experience Map">
           </div>
         </div>
@@ -503,7 +446,7 @@
     <!-- BUILDING SPOT START -->
     <section class="py-5 bg-grey">
       <div class="container">
-        <div class="row py-5">
+        <div class="row py-5" data-aos="fade-up">
           <div class="col-12">
             <h2>Building SPOT</h2>
           </div>
@@ -527,7 +470,7 @@
             <p>Creating a site-map helped narrow down the key components and necessary pages. It aided in page
               consolidation and reinforced the user's journey</p>
           </div>
-          <div class="col-12 col-md-8" data-aos="fade-left">
+          <div class="col-12 col-md-8">
             <img src="assets/spot/site_map.png" class="img-fluid" alt="Site Map">
           </div>
           <!-- SITEMAP END -->
@@ -535,7 +478,7 @@
 
 
         <!-- FEATURES START -->
-        <div class="row justify-content-md-center py-5">
+        <div class="row justify-content-md-center py-5" data-aos="fade-up">
           <div class="col-12">
             <h3>Feature Matrix</h3>
 
@@ -544,7 +487,7 @@
             <p>Card sorting helped us refine the feature list to include in the feature matrix where we determined the
               most essential features to include.</strong></p>
             <img src="assets/spot/feature-cardsorting.jpg" class="w-100 w-md-75 float-none mx-auto d-block"
-              alt="Card sorting features" data-aos="fade-right">
+              alt="Card sorting features">
             <div class="bg-grey p-4">
               <h4 class="font-weight-bold">Most important features:</h4>
               <p>Location searching - primary use for photographers</p>
@@ -644,7 +587,7 @@
     <!-- PROTOTYPE START -->
     <section class="pt-5">
       <div class="container">
-        <div class="row py-5">
+        <div class="row py-5" data-aos="fade-up">
           <div class="col-12">
             <h2>Prototype</h2>
           </div>
@@ -653,14 +596,14 @@
             <p>Our paper prototype is a cardboard phone casing with tabbed paper prototype pages to layout necessary
               content and for quick user testing.</p>
           </div>
-          <div class="col-6 col-md-3" data-aos="fade-left">
+          <div class="col-6 col-md-3">
             <img src="assets/spot/paper_prototype1.jpg" class="img-fluid" alt="Paper prototype in cardboard phone case">
           </div>
-          <div class="col-6 col-md-3" data-aos="fade-left">
+          <div class="col-6 col-md-3">
             <img src="assets/spot/paper_prototype2.jpg" class="img-fluid" alt="Paper prototype in cardboard phone case">
           </div>
         </div>
-        <div class="row py-5">
+        <div class="row py-5" data-aos="fade-up">
           <div class="col-12">
             <h3>Wireframes</h3>
           </div>
@@ -668,17 +611,17 @@
             <p>Using what I learned from the paper protype I progressed the prototype into wireframes for user testing.
             </p>
           </div>
-          <div class="col-4 col-md-3" data-aos="fade-left">
+          <div class="col-4 col-md-3">
             <img src="assets/spot/wireframe1.png" class="img-fluid" alt="SPOT Wireframe">
           </div>
-          <div class="col-4 col-md-3" data-aos="fade-left">
+          <div class="col-4 col-md-3">
             <img src="assets/spot/wireframe2.png" class="img-fluid" alt="SPOT Wireframe">
           </div>
-          <div class="col-4 col-md-3" data-aos="fade-left">
+          <div class="col-4 col-md-3">
             <img src="assets/spot/wireframe3.png" class="img-fluid" alt="SPOT Wireframe">
           </div>
         </div>
-        <div class="row py-5">
+        <div class="row py-5" data-aos="fade-up">
           <div class="col-12">
             <h3>Usability Testing</h3>
           </div>
@@ -705,7 +648,7 @@
               <li>Users completed the tasks successfully but brought up other pain points.</li>
             </ul>
           </div>
-          <div class="col-12" data-aos="fade-right">
+          <div class="col-12">
             <img src="assets/spot/usability_testing.png" class="img-fluid" alt="Usability Testing Results">
           </div>
         </div>
@@ -713,21 +656,21 @@
     </section>
     <section class="pt-5">
       <div class="container">
-        <div class="row py-5">
+        <div class="row py-5" data-aos="fade-up">
           <div class="col-12">
             <h2>Design System</h2>
             <p>Orange is a stimulating color that evokes enthusiasm, creativity, and youth. </p>
           </div>
-          <div class="col-12 col-md-4 py-4" data-aos="fade-right">
+          <div class="col-12 col-md-4 py-4">
             <img src="assets/spot/design_system1.png" class="img-fluid d-none d-md-block"
               alt="Design System: Type and Buttons">
             <img src="assets/spot/design_system1sm.png" class="img-fluid d-md-none"
               alt="Design System: Type and Buttons">
           </div>
-          <div class="col-12 col-md-4 py-4" data-aos="fade-right">
+          <div class="col-12 col-md-4 py-4">
             <img src="assets/spot/design_system2.png" class="img-fluid" alt="Design System: Colors">
           </div>
-          <div class="col-12 col-md-4 py-4" data-aos="fade-right">
+          <div class="col-12 col-md-4 py-4">
             <img src="assets/spot/design_system3.png" class="img-fluid" alt="Design System: Columns">
           </div>
         </div>
@@ -735,14 +678,14 @@
     </section>
     <section class="pt-5">
       <div class="container">
-        <div class="row py-5">
+        <div class="row py-5" data-aos="fade-up">
           <div class="col-12">
             <h3>High Fidelity Prototype</h3>
           </div>
-          <div class="col-12" data-aos="fade-up">
+          <div class="col-12">
             <img src="assets/spot/hifi_prototype.png" class="img-fluid" alt="High Fidelity Prototype">
           </div>
-          <div class="col-12" data-aos="fade-up">
+          <div class="col-12">
             <a href="https://projects.invisionapp.com/prototype/SPOT-high-fidelity-prototype-ck5oo89xc0020y301hg1czmss/play/c0b6964c"
               target="_blank" class="btn btn-block btn-lg" role="button">Try the InVision Prototype</a>
           </div>
@@ -812,6 +755,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
   </script>
+
 </body>
 
 </html>
