@@ -229,6 +229,19 @@ blockquote:after {
   border-width: 10px;
 }
 
+/* WAYVE BLOCKQUOTE START */
+#wayve blockquote {
+  background-color: #68A8DC;
+  color: white;
+}
+
+#wayve blockquote:after {
+  border-top-color: #68A8DC;
+  border-left-color: #68A8DC;
+}
+/* WAYVE BLOCKQUOTE END */
+
+
 .quotes {
   position: absolute;
   color: rgba(255, 255, 255, 0.5);
