@@ -45,7 +45,12 @@ h5 {
   font-size: .8rem;
 }
 
-p {
+p, li {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.figure-caption {
+  text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
 
