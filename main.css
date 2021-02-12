@@ -344,6 +344,11 @@ blockquote:after {
   border-top: 3px solid #68A8DC;
 }
 
+#panelle .under-color {
+  margin-top: .5rem;
+  border-top: 3px solid #290866;
+}
+
 .flex-basis {
   flex: 1 1 0px;
 }
