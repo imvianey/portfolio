@@ -125,6 +125,13 @@ a:hover {
   background-color: #EBE9ED;
 }
 
+.bg-pink{
+  background-color: #da4167;
+}
+
+.bg-purple{
+  background-color: #290866;
+}
 
 /* ----- COLORS END */
 
@@ -162,12 +169,15 @@ iframe {
 .table th {
   padding: .75rem;
   border: 2px double #1A181B;
-  ;
   text-align: center;
 }
 
 .fa-check::before {
   content: "\f00c";
+  color: white;
+}
+
+#panelle .fa-times::before {
   color: white;
 }
 
