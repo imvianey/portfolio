@@ -53,9 +53,10 @@ p, li {
   font-family: 'Open Sans', sans-serif;
 }
 
-.figure-caption {
+figcaption {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+  font-size: small
 }
 
 .grow:hover {
