@@ -45,6 +45,10 @@ h5 {
   font-size: .8rem;
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5;
+}
+
 p, li {
   font-family: 'Open Sans', sans-serif;
 }
@@ -66,11 +70,22 @@ a {
   color: #1A181B;
   text-decoration: none;
   background-color: transparent;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a:hover {
   color: #1A181B;
   text-decoration: none;
+}
+
+.white a:hover{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.research-link{
+  text-decoration: underline;
+  font-size: small;
 }
 
 /* ----- NAVBAR START ----- */
@@ -131,6 +146,14 @@ a:hover {
 
 .bg-purple{
   background-color: #290866;
+}
+
+.purple{
+  color: #290866;
+}
+
+.white{
+  color: #ffffff;
 }
 
 /* ----- COLORS END */
@@ -267,6 +290,16 @@ blockquote:after {
 .leftq {
   top: -25px;
   left: 5px;
+}
+
+#panelle .leftq {
+  top: -47px;
+  left: -22px;
+}
+
+#panelle .rightq {
+  bottom: 82px;
+  right: 20px;
 }
 
 .rightq {
