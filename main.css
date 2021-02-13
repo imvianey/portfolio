@@ -403,6 +403,20 @@ blockquote:after {
   font-family: 'Oswald', sans-serif;
 }
 
+#panelle .btn-lg {
+  background-color: #da4167;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  border: #da4167 solid 4px;
+}
+
+#panelle .btn-lg:hover {
+  background-color: #ffffff;
+  color: #da4167;
+  border: #da4167 solid 4px;
+  font-family: 'Oswald', sans-serif;
+}
+
 /* PROTOTYPE END */
 /* ----- WORK END ----- */
 
