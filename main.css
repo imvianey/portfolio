@@ -9,6 +9,15 @@ body {
   color: #1A181B;
 }
 
+section{
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
+}
+
+.section-space{
+  padding-top: 3rem;
+}
+
 .h1,
 h1 {
   font-family: 'Oswald', sans-serif;
@@ -21,21 +30,21 @@ h2 {
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .h3,
 h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .h4,
 h4 {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 1rem;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .h5,
@@ -112,17 +121,18 @@ a:hover {
 
 /* ----- INDEX START ----- */
 .btn-primary {
-  background-color: #47A8BD;
+  background-color: #1A181B;
   color: #ffffff;
   border: #1A181B solid 2px;
-  border-radius: 0px;
+  border-radius: 45px;
+  width: 200px;
 }
 
 .btn-primary:hover {
   background-color: #ffffff;
   color: #1A181B;
-  border: #47A8BD solid 4px;
-  border-radius: 0px;
+  border: #1A181B solid 4px;
+  border-radius: 200px;
 }
 
 /* ----- INDES END----- */
@@ -147,6 +157,10 @@ a:hover {
 
 .bg-purple{
   background-color: #290866;
+}
+
+.bg-black{
+  background-color: #1A181B;
 }
 
 .purple{
