@@ -124,7 +124,6 @@ a:hover {
   background-color: #1A181B;
   color: #ffffff;
   border: #1A181B solid 2px;
-  border-radius: 45px;
   width: 200px;
 }
 
@@ -132,7 +131,28 @@ a:hover {
   background-color: #ffffff;
   color: #1A181B;
   border: #1A181B solid 4px;
-  border-radius: 200px;
+}
+
+.min-vh-100 {
+  min-height: 50vh!important;
+}
+
+.jumbo-hello{
+  font-size: 30vw !important;
+  text-align: center;
+}
+
+.jumbo-name h1{
+  font-size: 18vw !important;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.jumbo-name h2{
+  font-size: 4.5vw !important;
+  text-align: center;
 }
 
 /* ----- INDES END----- */
@@ -192,6 +212,13 @@ iframe {
   margin: 10px 0px;
 }
 
+.content {
+  position: absolute;
+  right: 96px;
+  width: 100%;
+  height: 100%;
+  padding: 2rem 0 0 2rem;
+}
 /* OBSERVATION END */
 
 /* COMPETITIVE ANALYISIS START */
@@ -451,6 +478,30 @@ blockquote:after {
     font-size: 2.2vw;
     background-color: #F78F19;
   }
+
+  .min-vh-100 {
+    min-height: 100vh!important;
+}
+
+.jumbo-hello{
+  font-size: 20vw !important;
+  text-align: center;
+  padding-bottom: 15vw;
+}
+
+.jumbo-name{
+  padding-top: 15vw;
+}
+
+.jumbo-name h1{
+  font-size: 9vw !important;
+  text-align: center;
+}
+
+.jumbo-name h2{
+  font-size: 2.3vw !important;
+  text-align: center;
+}
 }
 
 @media(min-width:992px) {
