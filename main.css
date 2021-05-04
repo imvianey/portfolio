@@ -133,6 +133,19 @@ a:hover {
   border: #1A181B solid 4px;
 }
 
+.bg-black .btn-primary {
+  background-color: #ffffff;
+  color: #1A181B;
+  border: #ffffff solid 2px;
+  width: 200px;
+}
+
+.bg-black .btn-primary:hover {
+  background-color: #1A181B;
+  color: #ffffff;
+  border: #ffffff solid 4px;
+}
+
 .min-vh-100 {
   min-height: 50vh!important;
 }
@@ -181,6 +194,12 @@ a:hover {
 
 .bg-black{
   background-color: #1A181B;
+  color: white;
+}
+
+.bg-white{
+  color: #1A181B;
+  background-color: white;
 }
 
 .purple{
