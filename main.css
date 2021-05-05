@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
 
-.container{
+.container {
   width: 100%;
 }
 
@@ -9,12 +9,12 @@ body {
   color: #1A181B;
 }
 
-section{
+section {
   padding-top: 6rem !important;
   padding-bottom: 6rem !important;
 }
 
-.section-space{
+.section-space {
   padding-top: 3rem;
 }
 
@@ -54,11 +54,23 @@ h5 {
   font-size: .8rem;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.5;
 }
 
-p, li {
+p,
+li {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -88,12 +100,12 @@ a:hover {
   text-decoration: none;
 }
 
-.white a:hover{
+.white a:hover {
   color: #ffffff;
   text-decoration: underline;
 }
 
-.research-link{
+.research-link {
   text-decoration: underline;
   font-size: small;
 }
@@ -133,6 +145,13 @@ a:hover {
   border: #1A181B solid 4px;
 }
 
+.btn-primary:visited {
+  background-color: #1A181B;
+  color: #ffffff;
+  border: #1A181B solid 2px;
+  width: 200px;
+}
+
 .bg-black .btn-primary {
   background-color: #ffffff;
   color: #1A181B;
@@ -146,16 +165,27 @@ a:hover {
   border: #ffffff solid 4px;
 }
 
-.min-vh-100 {
-  min-height: 50vh!important;
+.bg-black .btn-primary:visited {
+  background-color: #ffffff;
+  color: #1A181B;
+  border: #ffffff solid 2px;
+  width: 200px;
 }
 
-.jumbo-hello{
+.btn-primary:visited {
+  outline-style: none;
+}
+
+.min-vh-100 {
+  min-height: 50vh !important;
+}
+
+.jumbo-hello {
   font-size: 30vw !important;
   text-align: center;
 }
 
-.jumbo-name h1{
+.jumbo-name h1 {
   font-size: 18vw !important;
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
@@ -163,12 +193,20 @@ a:hover {
   text-align: center;
 }
 
-.jumbo-name h2{
+.jumbo-name h2 {
   font-size: 4.5vw !important;
   text-align: center;
 }
 
 /* ----- INDES END----- */
+
+.about-info {
+  font-size: 2rem;
+}
+
+.fa-2x {
+  font-size: 1.15em;
+}
 
 /* ----- WORK START ----- */
 /* ----- COLORS START ----- */
@@ -184,29 +222,29 @@ a:hover {
   background-color: #EBE9ED;
 }
 
-.bg-pink{
+.bg-pink {
   background-color: #da4167;
 }
 
-.bg-purple{
+.bg-purple {
   background-color: #290866;
 }
 
-.bg-black{
+.bg-black {
   background-color: #1A181B;
   color: white;
 }
 
-.bg-white{
+.bg-white {
   color: #1A181B;
   background-color: white;
 }
 
-.purple{
+.purple {
   color: #290866;
 }
 
-.white{
+.white {
   color: #ffffff;
 }
 
@@ -238,6 +276,7 @@ iframe {
   height: 100%;
   padding: 2rem 0 0 2rem;
 }
+
 /* OBSERVATION END */
 
 /* COMPETITIVE ANALYISIS START */
@@ -265,11 +304,11 @@ iframe {
   color: white;
 }
 
-.table thead th{
+.table thead th {
   vertical-align: middle;
 }
 
-.thead{
+.thead {
   width: 100%;
 }
 
@@ -339,6 +378,7 @@ blockquote:after {
   border-top-color: #68A8DC;
   border-left-color: #68A8DC;
 }
+
 /* WAYVE BLOCKQUOTE END */
 
 
@@ -488,6 +528,10 @@ blockquote:after {
     font-size: 2.2vw;
     background-color: #F78F19;
   }
+
+  .fa-2x {
+    font-size: 1.5em;
+  }
 }
 
 @media(min-width:768px) {
@@ -499,28 +543,32 @@ blockquote:after {
   }
 
   .min-vh-100 {
-    min-height: 100vh!important;
-}
+    min-height: 100vh !important;
+  }
 
-.jumbo-hello{
-  font-size: 20vw !important;
-  text-align: center;
-  padding-bottom: 15vw;
-}
+  .fa-2x {
+    font-size: 1.5em;
+  }
 
-.jumbo-name{
-  padding-top: 15vw;
-}
+  .jumbo-hello {
+    font-size: 20vw !important;
+    text-align: center;
+    padding-bottom: 15vw;
+  }
 
-.jumbo-name h1{
-  font-size: 9vw !important;
-  text-align: center;
-}
+  .jumbo-name {
+    padding-top: 15vw;
+  }
 
-.jumbo-name h2{
-  font-size: 2.3vw !important;
-  text-align: center;
-}
+  .jumbo-name h1 {
+    font-size: 9vw !important;
+    text-align: center;
+  }
+
+  .jumbo-name h2 {
+    font-size: 2.3vw !important;
+    text-align: center;
+  }
 }
 
 @media(min-width:992px) {
@@ -529,6 +577,11 @@ blockquote:after {
     right: -1%;
     font-size: 2.4vw;
     background-color: #F78F19;
+  }
+
+
+  .fa-2x {
+    font-size: 2em;
   }
 }
 

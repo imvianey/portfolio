@@ -39,14 +39,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mb-2 mb-md-0 active">
-                        <a class="nav-link grow" href="index.html">Work</a>
+                    <li class="dropdown show nav-item mb-2 mb-md-0 active">
+                        <a class="nav-link grow dropdown-toggle" href="index.html" role="button" id="dropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Work
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="work_wayve.html">Wayve</a>
+                            <a class="dropdown-item" href="work_panelle.html">Panelle</a>
+                            <a class="dropdown-item" href="work_spot.html">SPOT</a>
+                        </div>
                     </li>
                     <li class="nav-item mb-2 mb-md-0">
                         <a class="nav-link grow" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item mb-2 mb-md-0">
-                        <a class="nav-link grow" href="resume.html">Resume</a>
                     </li>
                 </ul>
             </div>
@@ -59,20 +65,49 @@
             <div class="container">
                 <div class="row py-4" data-aos="fade-up">
                     <div class="col-12 col-md-4">
-                        <img src="assets/about/vianeygacia.jpg" class="img-fluid mx-auto d-block" alt="Picture of Me, Vianey Garcia">
+                        <img src="assets/about/vianeygacia.jpg" class="img-fluid mx-auto d-block"
+                            alt="Picture of Me, Vianey Garcia">
                     </div>
                     <div class="col-12 col-md-8 pl-4">
                         <h1 class="">Hello,</h1>
                         <h1 class="">I'm Vianey!</h1>
-                        <h3>An interaction and user experience designer with a mission to improve human experiences through design.</h3>
+                        <p class="about-info">An <strong>interaction and user experience designer</strong> with a
+                            mission I <strong>empathize</strong> and explore <strong>human-centered design</strong> to
+                            create
+                            meaningful experiences.</p>
+
                         <div class="d-flex justify-content-center pt-4">
-                            <a href="" class="btn btn-primary grow" role="button">Download Resume</a>
+                            <a href="/assets/about/garciavianey_resume.pdf" target="_blank" class="btn btn-primary grow"
+                                role="button">Download Resume</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- ABOUT BIO END -->
+        <!-- CONTACT START -->
+        <section class="py-4">
+            <div class="container">
+                <div class="row py-4" data-aos="fade-up">
+                    <div class="col-12 col-md-4">
+                        <h1>Let's Work Together</h1>
+                    </div>
+                    <div class="col-12 col-md-8 fa-2x mt-auto mb-auto">
+                        <div><i class="fab fa-linkedin pr-2"> </i>
+                            <a class="fb-ic" href="https://www.linkedin.com/in/vianeygarcia/"
+                                target="_blank">www.linkedin.com/in/vianey-garcia
+                            </a>
+                        </div>
+                        <div><i class="fas fa-envelope pt-4 pr-2"> </i>
+                            <a class="fb-ic" href="mailto: vianey.garcia10@gmail.com"
+                                target="_blank">vianey.garcia10@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT END -->
     </main>
     <footer class="page-footer mt-5">
 
@@ -87,16 +122,12 @@
                 <!-- SOCIAL MEDIA START -->
                 <div class="col-12 py-3">
                     <div class="flex-center text-center text-align-center">
-                        <!-- Facebook -->
-                        <a class="fb-ic">
-                            <i class="fab fa-facebook-f fa-lg white-text mx-1 fa-2x grow"> </i>
-                        </a>
-                        <!-- Twitter -->
-                        <a class="tw-ic">
-                            <i class="fab fa-twitter fa-lg white-text mx-1 fa-2x grow"> </i>
+                        <!-- LinkedIn -->
+                        <a class="fb-ic" href="https://www.linkedin.com/in/vianeygarcia/" target="_blank">
+                            <i class="fab fa-linkedin-in fa-lg white-text mx-1 fa-2x grow"> </i>
                         </a>
                         <!--Instagram-->
-                        <a class="ins-ic" href="#"><i class="grow fab fa-instagram fa-lg white-text mx-1 fa-2x"></i></a>
+                        <a class="ins-ic"><i class="grow fab fa-instagram fa-lg white-text mx-1 fa-2x"></i></a>
                     </div>
                 </div>
                 <!-- SOCIAL MEDIA END -->
