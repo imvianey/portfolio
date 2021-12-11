@@ -346,8 +346,8 @@ figcaption {
   display: block;
   margin-top: 10px;
   margin-bottom: 0px;
-  font-size: 10vw;
-  line-height: 10vw;
+  font-size: 9vw;
+  line-height: 9vw;
 }
 
 .main-h1.home {
@@ -355,8 +355,8 @@ figcaption {
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: Oswald, sans-serif;
-  font-size: 9vw;
-  line-height: 9vw;
+  font-size: 8vw;
+  line-height: 8vw;
 }
 
 .paragraph {
