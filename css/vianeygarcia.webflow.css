@@ -3784,8 +3784,8 @@ figcaption {
   grid-template-areas: ".";
   -ms-grid-columns: 1fr 40px 1fr 40px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: auto 40px auto;
-  grid-template-rows: auto auto;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
 }
 
 .gallery-lightbox {
@@ -3795,6 +3795,15 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.gallery-lightbox:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .gallery-lightbox.dropshadow {
@@ -3806,6 +3815,10 @@ figcaption {
   overflow: visible;
   width: auto;
   height: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
   text-align: left;
   -o-object-fit: cover;
   object-fit: cover;
@@ -6189,10 +6202,12 @@ figcaption {
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
   grid-row-end: span 1;
-  -ms-grid-column: span 2;
-  grid-column-start: span 2;
-  -ms-grid-column-span: 2;
-  grid-column-end: span 2;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-column-align: auto;
+  justify-self: auto;
 }
 
 #w-node-_71d83e2b-cf60-ac25-0b97-87d6c185c197-419a4d81 {
