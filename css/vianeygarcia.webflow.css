@@ -2020,6 +2020,14 @@ figcaption {
   object-fit: fill;
 }
 
+.hero-image-mask.lens {
+  overflow: visible;
+  width: auto;
+  max-height: 100.000330862842%;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
 .hero-image {
   position: static;
   display: block;
@@ -3105,6 +3113,7 @@ figcaption {
 }
 
 .p-top {
+  display: block;
   padding-top: 40px;
 }
 
@@ -4003,6 +4012,16 @@ figcaption {
   grid-column-gap: 17px;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.image-23 {
+  max-width: 600px;
+}
+
+.lens {
+  max-width: 600px;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 @media screen and (max-width: 991px) {
@@ -5048,8 +5067,8 @@ figcaption {
   }
 
   .project-description {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 25px;
+    line-height: 35px;
   }
 
   .project-description.index {
@@ -5611,6 +5630,7 @@ figcaption {
   }
 
   .project-info.index {
+    padding-top: 10px;
     padding-right: 20px;
     padding-left: 20px;
   }
