@@ -1793,6 +1793,8 @@ figcaption {
 
 .paragraph-3.p-hero {
   margin-bottom: 0px;
+  font-size: 36px;
+  line-height: 50px;
 }
 
 .bold-text {
@@ -4613,6 +4615,11 @@ figcaption {
     line-height: 40px;
   }
 
+  .paragraph-3.p-hero {
+    font-size: 25px;
+    line-height: 28px;
+  }
+
   .bold-text {
     font-size: 4vw;
     line-height: 5vw;
@@ -4652,7 +4659,7 @@ figcaption {
   }
 
   .heading-12 {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 
   .collection-list-wrapper {
@@ -5262,6 +5269,10 @@ figcaption {
     -webkit-order: -1;
     -ms-flex-order: -1;
     order: -1;
+  }
+
+  .heading-12 {
+    font-size: 6vw;
   }
 
   .collection-list {
@@ -6032,7 +6043,7 @@ figcaption {
   .heading-12 {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 6vw;
+    font-size: 7vw;
     line-height: 7vw;
   }
 
