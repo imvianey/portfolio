@@ -2211,6 +2211,10 @@ figcaption {
   color: #6b63ff;
 }
 
+.section-h2.foot_left {
+  text-align: right;
+}
+
 .paragraph-7 {
   margin-bottom: 10px;
   color: #000;
@@ -2255,6 +2259,10 @@ figcaption {
 .section-h1.caps.purple {
   color: #6b63ff;
   font-size: 55px;
+}
+
+.section-h1.caps.foot_left {
+  text-align: right;
 }
 
 .section-h1.big-heading {
@@ -2874,6 +2882,12 @@ figcaption {
   background-color: #f4f4f4;
 }
 
+.section-4.footer-project {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: left;
+}
+
 .hero-proj-info {
   padding-left: 0px;
   -webkit-box-flex: 0;
@@ -3012,21 +3026,34 @@ figcaption {
   padding-top: 20px;
 }
 
+.col.left {
+  text-align: left;
+}
+
+.col.right {
+  text-align: right;
+}
+
 .col-container {
   position: relative;
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  text-align: center;
 }
 
 .col-container.num-col {
@@ -4225,6 +4252,29 @@ figcaption {
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
+}
+
+.image-29 {
+  max-width: 50%;
+}
+
+.image-29.foot_left {
+  text-align: right;
+}
+
+.link-block-4 {
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: right;
+}
+
+.footer-project {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 @media screen and (max-width: 991px) {
