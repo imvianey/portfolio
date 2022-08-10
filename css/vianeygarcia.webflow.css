@@ -2536,6 +2536,8 @@ figcaption {
 }
 
 .center {
+  display: none;
+  overflow: visible;
   margin: auto;
   text-align: center;
 }
