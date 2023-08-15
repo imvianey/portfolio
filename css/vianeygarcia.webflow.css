@@ -4025,9 +4025,15 @@ figcaption {
     margin-bottom: 48px;
   }
 
+  .project-wrapper-2 {
+    margin-bottom: 60px;
+  }
+
   .wrapper-2.projects-grid {
     grid-row-gap: 48px;
     grid-template-columns: 1fr;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }
 
@@ -4598,6 +4604,11 @@ figcaption {
     padding-bottom: 20px;
   }
 
+  .paragraph-18 {
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+
   .columns-6 {
     display: flex;
   }
@@ -4617,6 +4628,15 @@ figcaption {
 
   .normal-wrapper._48px-right_p {
     padding-right: 0;
+  }
+
+  .project-wrapper-2 {
+    margin-bottom: 60px;
+  }
+
+  .wrapper-2.projects-grid {
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
   .heading_55px {
@@ -5098,6 +5118,11 @@ figcaption {
     padding-bottom: 20px;
   }
 
+  .paragraph-18 {
+    font-size: 4vw;
+    line-height: 6vw;
+  }
+
   .container-13 {
     max-width: none;
   }
@@ -5113,6 +5138,17 @@ figcaption {
   .project-image {
     object-fit: cover;
     display: inline-block;
+  }
+
+  .project-wrapper-2 {
+    margin-bottom: 40px;
+  }
+
+  .wrapper-2.projects-grid {
+    grid-column-gap: 80px;
+    grid-row-gap: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .image-45 {
