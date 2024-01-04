@@ -1,5 +1,5 @@
 :root {
-  --black: black;
+  --black: #111;
   --white: white;
   --white-smoke: #fafafa;
   --dark-grey: #9b9b9b;
@@ -1639,6 +1639,7 @@ figcaption {
 }
 
 .section-h1.caps.pink {
+  -webkit-text-stroke-color: var(--white);
   margin-top: 0;
 }
 
@@ -1653,6 +1654,12 @@ figcaption {
 
 .section-h1.caps.center {
   text-align: center;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.section-h1.caps.center.w--current {
+  color: var(--white);
 }
 
 .section-h1.caps.am_purple {
@@ -3231,6 +3238,7 @@ figcaption {
 }
 
 .footer-project {
+  background-color: var(--black);
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -3667,6 +3675,17 @@ figcaption {
 
 .image-54 {
   background-color: #443677;
+}
+
+.container-16 {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.column-13, .column-14 {
+  flex-direction: column;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
@@ -5178,8 +5197,16 @@ figcaption {
     background-color: var(--white-smoke);
   }
 
+  .section-h1.caps.center {
+    color: var(--white);
+  }
+
   .centered-container {
     text-align: left;
+  }
+
+  .centered-container.spot.mobile_hide {
+    display: none;
   }
 
   .cards-grid-container {
