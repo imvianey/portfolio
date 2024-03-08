@@ -1648,6 +1648,10 @@ figcaption {
   font-size: 55px;
 }
 
+.section-h1.caps.white {
+  color: var(--white);
+}
+
 .section-h1.caps.foot_left {
   text-align: right;
 }
