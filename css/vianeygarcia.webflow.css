@@ -3692,6 +3692,10 @@ figcaption {
   display: flex;
 }
 
+.sh_background{
+	background-color:  #64adcf;
+}
+
 @media screen and (max-width: 991px) {
   a {
     margin-bottom: 20px;
@@ -4216,6 +4220,9 @@ figcaption {
     padding-left: 60px;
     padding-right: 60px;
   }
+.sh_background{
+	background-color:  #64adcf;
+}
 }
 
 @media screen and (max-width: 767px) {
@@ -4845,6 +4852,9 @@ figcaption {
   .mobile_hide {
     display: none;
   }
+.sh_background{
+	background-color:  #64adcf;
+}
 }
 
 @media screen and (max-width: 479px) {
@@ -5375,6 +5385,9 @@ figcaption {
   .image-45 {
     border: 1px #000;
   }
+.sh_background{
+	background-color:  #64adcf;
+}
 }
 
 #w-node-_7b260aa0-aca9-4f19-f906-9a8a853f978d-d7b8efab {
