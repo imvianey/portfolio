@@ -1502,8 +1502,8 @@ figcaption {
 .heading-12 {
   color: var(--black);
   font-family: Open Sans, sans-serif;
-  font-size: 3.2vw;
-  line-height: 4vw;
+  font-size: 4rem;
+  line-height: 4rem;
 }
 
 .image-9 {
@@ -3271,8 +3271,13 @@ figcaption {
 
 .paragraph-18 {
   margin-bottom: 0;
-  font-size: 2vw;
-  line-height: 3vw;
+  font-size: 2rem;
+  line-height: 3rem;
+	padding-top: 10px;
+}
+.paragraph-14 {
+  margin-bottom: 0;
+  font-size: 1.5rem;
 }
 
 .image-30 {
@@ -4039,9 +4044,7 @@ figcaption {
     padding-bottom: 60px;
   }
 
-  .heading-12 {
-    font-size: 5vw;
-  }
+
 
   .collection-list-wrapper {
     display: block;
@@ -4517,9 +4520,6 @@ figcaption {
     padding-right: 0;
   }
 
-  .heading-12 {
-    font-size: 6vw;
-  }
 
   .collection-list {
     grid-template-rows: auto auto;
@@ -5215,12 +5215,6 @@ figcaption {
     flex-direction: column;
   }
 
-  .heading-12 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 7vw;
-    line-height: 7vw;
-  }
 
   .image-9 {
     height: auto;
